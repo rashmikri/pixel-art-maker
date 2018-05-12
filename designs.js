@@ -1,6 +1,7 @@
 function makeGrid(width, height) {
     let pixelCanvas, grid;
     pixelCanvas = $('#pixel_canvas');
+    
     if (pixelCanvas.children().length) {
         pixelCanvas.empty();//removes child node and contents from the selected items
     }
